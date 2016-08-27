@@ -1,3 +1,9 @@
 import request
 url="www.google.com"
-print request.get(url).text
+try:
+	
+	print request.get(url).text
+except Exception as E:
+	print "Error"
+
+
