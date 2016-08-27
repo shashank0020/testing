@@ -6,9 +6,11 @@ try:
 except Exception as E:
 	print "Error"
 	
-	
-vals = dict(username="shazz")
-print request.post(url,data).text
+try:	
+	vals = dict(username="shazz")
+	print request.post(url,data).text
+except Exception as E:
+	print "Error"
 
 
 
