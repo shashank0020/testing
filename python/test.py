@@ -11,6 +11,9 @@ try:
 	print request.post(url,data).text
 except Exception as E:
 	print "Error"
+	
+class ABC():
+	print "pp"
 
 
 
