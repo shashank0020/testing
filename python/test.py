@@ -16,4 +16,6 @@ class ABC():
 	print "pp"
 
 
+class DEF():
+	print "pp"
 
